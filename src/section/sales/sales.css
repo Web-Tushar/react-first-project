@@ -1,0 +1,26 @@
+#sales{
+     padding: 100px 0 80px 0;
+     background-color: #FCF8F8;
+   }
+   .sales__heading .sub__heading{
+     width: 732px;
+   }
+   
+   .sales__wtapper{
+     margin-top: 64px;
+     display: flex;
+     column-gap: 65px;
+   }
+   
+   .sales__content h4{
+     margin-top: 28px;
+     color: var(--common_color);
+     font-family: var(--open_sans);
+     font-size: 30px;
+     font-weight: 700;
+     line-height: 36px;
+   }
+   .sales__content .paragraph{
+     margin-top: 5;
+      width: 347px;
+   }

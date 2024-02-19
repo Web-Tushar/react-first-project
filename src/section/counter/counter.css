@@ -1,0 +1,49 @@
+#counter{
+     padding: 100px 0 90px 0;
+   }
+   
+   .counter__item__heading{
+     color: var(--common_color);
+     font-family: var(--open_sans);
+     font-size: 24px;
+     font-weight: 700;
+     line-height: normal;
+   }
+   .counter__item__content .paragraph{
+     width: 415px;
+   }
+   .counter__item__content .counter__item__heading{
+     color: var(--common_color);
+     font-family: var(--open_sans);
+     font-size: 24px;
+     font-weight: 700;
+     line-height: normal;
+   }
+   
+   .counter__img{
+     width: 582px;
+     height: 362px;
+     overflow: hidden;
+   }
+   
+   .counter__img img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+   
+   
+   .counter__item__one{
+     display: flex;
+     column-gap: 60px;
+   }
+   
+   .counter__item__two{
+     display: flex;
+     column-gap: 72px;
+   }
+   
+   .counter__item__three{
+     display: flex;
+     column-gap: 60px;
+   }

@@ -1,0 +1,59 @@
+:root{
+  --open_sans: 'Open Sans', sans-serif;
+  --poppins_font:'Poppins', sans-serif;
+  --common_color: #3D3430;
+}
+
+
+
+/* ====common code strat here==== */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style-type: none;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+.common__btn{
+  padding: 14px 28px;
+  background-color: #7258F7;
+  color: #fff;
+  display: inline-block;
+  font-family: var(--open_sans);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 200%; 
+  text-transform: capitalize;
+}
+
+.sub__heading{
+  color: var(--common_color);
+  font-family: var(--open_sans);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.paragraph{
+  color: #5F5450;
+  font-family: var(--poppins_font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+/* ==common code end here==== */
+
+/* .sales__wtapper{
+  margin-top: 64px;
+  display: flex;
+  column-gap: 65px;
+} */

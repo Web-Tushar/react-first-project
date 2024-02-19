@@ -1,0 +1,148 @@
+#plan{
+     padding: 100px 0;
+     background-color: #FCF8F8;
+   }
+   
+   .plan_heading{
+     text-align: center;
+     margin: 0 auto;
+     width: 689px;
+   
+   
+   }
+   .plan_swap{
+     margin-top: 36px;
+     display: flex;
+     column-gap: 20px;
+     align-items: center;
+     justify-content: center;
+   
+   }
+   
+   .swap_item{
+     color: var(--common_color);
+     font-family:var(--open_sans);
+     font-size: 28px;
+     font-weight: 700;
+     line-height: 100%;
+      text-transform: capitalize;
+   }
+   
+   .swap_btn{
+     width: 70px;
+     height: 40px;
+     border-radius: 50px;
+     border: 2px solid #7258F7;
+     background-color: #fff;
+     position: relative;
+   }
+   .swap_btn::after{
+     width: 26px;
+     height: 26px;
+     border-radius: 50px;
+     background-color: #7258F7;
+     
+     position: absolute;
+     content: "";
+     top: 50%;
+     transform: translateY(-50%);
+     left: 8px;
+   
+   }
+   
+   .plan_swap .save{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 98px;
+     height: 32px;
+     border-radius: 18px;
+     color: #5F5450;
+     text-align: center;
+     font-family: var(--open_sans);
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 18px;
+     background: #E2DDFB;
+   }
+   
+   .package__wrapper{
+     margin-top: 65px;
+     display: flex;
+     column-gap: 30px;
+   }
+   
+   .package__level{
+     width: 370px;
+     background-color: #E2DDFB;
+     padding: 50px 0;
+     text-align: center;
+   }
+   
+   .package__level__head{
+     color: var(--common_color);
+     font-family: var(--open_sans);
+     font-size: 40px;
+     font-weight: 700;
+     line-height: 55px;
+   }
+   
+   .package__level .Monthly{
+     color: #5F5450;
+     font-family: var(--open_sans);
+     font-size: 20px;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: -1px;
+   }
+   
+   .price p span{
+     color: var(--common_color);
+     font-family: var(--open_sans);
+     font-size: 72px;
+     font-weight: 700;
+     line-height: 123px;
+   }
+   
+   .price p{
+     color: #3D3430;
+     font-family: var(--open_sans);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 25px; 
+   }
+   
+   .basic__details{
+     background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 20px;
+     width: 370px;
+     padding: 20px 0 43px 0;
+   
+   }
+   .basic__details p{
+     text-align: center;
+     width: 252px;
+     color: #6C7D93;
+     font-family: var(--open_sans);
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 32px;
+   }
+   
+   .basic__details .common__btn{
+       background-color: #fff;
+       color: #6001D3;
+       border: 2px solid #6001D3;
+       font-weight: 700;
+       transition: all linear .3s;
+   }
+   
+   .basic__details .common__btn:hover{
+     background-color: #7258F7;
+     color: #fff;
+   }

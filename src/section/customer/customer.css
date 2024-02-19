@@ -1,0 +1,36 @@
+#customer{
+     padding: 100px 0 169px 0;
+   }
+   
+   .customer__wrapper{
+     display: flex;
+     column-gap: 100px;
+     align-items: center;
+   
+   }
+   .customer__content__sub__heading{
+     margin-top: 30px;
+     color: var(--common_color);
+     font-family: var(--open_sans);
+     font-size: 24px;
+     font-weight: 600;
+     line-height: normal;
+   }   
+   
+   .customer__content .paragraph{
+     margin-top: 20px;
+     width: 427px;
+   
+   }
+   
+   .customer__img{
+     width: 539px;
+     height: 580px;
+     overflow: hidden;
+   }
+   
+   .customer__img img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
