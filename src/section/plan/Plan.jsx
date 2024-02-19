@@ -5,70 +5,70 @@ const Plan = () => {
   return (
     <div>
           <section id="plan">
-               <div class="container">
-                    <div class="plan_heading">
-                         <h3 class="sub__heading">Choose The Right Plan</h3>
-                         <div class="plan_swap">
-                              <h4 class="swap_item">Monthly</h4>
-                              <div class="swap_btn"></div>
-                              <h4 class="swap_item">Yearly</h4>
-                              <div class="save">20% save</div>
+               <div className="container">
+                    <div className="plan_heading">
+                         <h3 className="sub__heading">Choose The Right Plan</h3>
+                         <div className="plan_swap">
+                              <h4 className="swap_item">Monthly</h4>
+                              <div className="swap_btn"></div>
+                              <h4 className="swap_item">Yearly</h4>
+                              <div className="save">20% save</div>
                          </div>
                     </div>
           
-                    <div class="package">
-                         <div class="package__wrapper">
-                              <div class="package__item">
-                                   <div class="package__level">
-                                        <h4 class="package__level__head">Basic</h4>
-                                        <p class="Monthly">Monthly Package</p>
-                                        <div class="price">
+                    <div className="package">
+                         <div className="package__wrapper">
+                              <div className="package__item">
+                                   <div className="package__level">
+                                        <h4 className="package__level__head">Basic</h4>
+                                        <p className="Monthly">Monthly Package</p>
+                                        <div className="price">
                                         <p><span>30</span>/Month</p>
                                         </div>
                                    </div>
-                                   <div class="basic__details">
+                                   <div className="basic__details">
                                         <p> Responsive Design
                                         Dynamic Elements
                                         Service Pages
                                         Custom Design & Features</p>
                     
-                                        <a class="common__btn" href="#">Choose plan</a>
+                                        <a className="common__btn" href="#">Choose plan</a>
                     
                                    </div>
                
                               </div>
-                              <div class="package__item">
-                                   <div class="package__level">
-                                        <h4 class="package__level__head">Basic</h4>
-                                        <p class="Monthly">Monthly Package</p>
-                                        <div class="price">
+                              <div className="package__item">
+                                   <div className="package__level">
+                                        <h4 className="package__level__head">Basic</h4>
+                                        <p className="Monthly">Monthly Package</p>
+                                        <div className="price">
                                              <p><span>30</span>/Month</p>
                                         </div>
                                    </div>
-                                   <div class="basic__details">
+                                   <div className="basic__details">
                                         <p> Responsive Design
                                         Dynamic Elements
                                         Service Pages
                                         Custom Design & Features</p>
                     
-                                        <a class="common__btn" href="#">Choose plan</a>
+                                        <a className="common__btn" href="#">Choose plan</a>
                                    </div>
                               </div>
-                              <div class="package__item">
-                                   <div class="package__level">
-                                        <h4 class="package__level__head">Basic</h4>
-                                        <p class="Monthly">Monthly Package</p>
-                                        <div class="price">
+                              <div className="package__item">
+                                   <div className="package__level">
+                                        <h4 className="package__level__head">Basic</h4>
+                                        <p className="Monthly">Monthly Package</p>
+                                        <div className="price">
                                              <p><span>30</span>/Month</p>
                                         </div>
                                    </div>
-                                   <div class="basic__details">
+                                   <div className="basic__details">
                                         <p> Responsive Design
                                         Dynamic Elements
                                         Service Pages
                                         Custom Design & Features</p>
                     
-                                        <a class="common__btn" href="#">Choose plan</a>
+                                        <a className="common__btn" href="#">Choose plan</a>
                                    </div>
                               </div>
                          </div>
